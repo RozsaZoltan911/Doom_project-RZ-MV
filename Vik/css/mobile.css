@@ -1,0 +1,38 @@
+@media(max-width: 800px ){
+    .container{
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+    }
+    nav .desktop , .fegyoHide{
+        display: none;
+    }
+    .fegyoShow{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fegyoShow p{
+        width: 100%;
+    }
+    .fegyoShow .container img{
+        width: 90%;
+    }
+    .fegyoShow h4{
+        margin-top: 10px;
+    }
+    #kep1{
+        object-fit: cover;
+        background-position: -200px center;
+    }
+    #kep2{
+        object-fit: cover;
+        background-position: -170px center;
+    }
+    #kep5{
+        object-fit: cover;
+        background-position: -350px center;
+    }
+}
+

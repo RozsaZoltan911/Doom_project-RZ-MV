@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.308)), url(../images/doomEternal_main.jpg);
+}
+.headercont h1, .headercont p{
+    text-shadow:    
+    0 0 7px #ee1506,
+    0 0 10px #f03919ad,
+    0 0 21px #e22200,
+    0 0 42px #000000,
+    0 0 82px #000000,
+    0 0 92px #000000,
+    0 0 102px #000000,
+    0 0 151px #000000;;
+}
+header{
+    background-image: url(../images/doomEternal_bg.jpeg);
+}
+section{
+    color: #fff;
+}
+#kep{
+    background-image: url(..//images/doom2_bg.jpg);
+}

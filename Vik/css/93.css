@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.308)), url(../images/doom93_main.png);
+}
+.headercont h1, .headercont p{
+    text-shadow:    
+    0 0 7px #ee6706,
+    0 0 10px #f06b19ad,
+    0 0 21px #e28000,
+    0 0 42px #000000,
+    0 0 82px #000000,
+    0 0 92px #000000,
+    0 0 102px #000000,
+    0 0 151px #000000;;
+}
+header{
+    background-image: url(../images/doom93_bg.jpeg);
+}
+
+
+section{
+    color: #fff;
+}
+section:last-of-type p{
+    padding: 30px 0px;
+}
+main section:last-of-type{
+    padding-bottom: 50px;
+}
+#kep{
+   background-image: url(..//images/Doom-title2_1.png);
+}
