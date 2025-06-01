@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
     font-style: normal;
 }
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.308)), url(../images/fixedscroll.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.308)), url(../images/index_main.jpg);
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position: center center;
@@ -35,7 +37,7 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    background-image: url(../images/slayer_and_dragon.jpg);
+    background-image: url(../images/index_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -163,6 +165,9 @@ footer p{
     gap: 70px   ;
     height: 130vh;
 }
+.motdtitle h3{
+    text-align: center;
+}
 .noshow{
     display: none;
 }
@@ -200,4 +205,154 @@ footer p{
     text-align: center;
     font-size: 60px;
     padding: 60px 0px;
+}
+
+
+.slide{
+    height: 350px;
+    width: 100%;
+    margin-left: 30px;
+    transform: scale(0.8s);
+    transition: all 0.4s ease-in-out;
+    padding: 120px 0 40px;
+}
+.slide img{
+    height: 250px;
+    width: 90%;   
+    object-fit: cover;
+    object-position: center center;
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+    border: #fff 2px solid;
+    border-radius: 25px;
+}
+.slideshow{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-center{
+    transform: scale(1.1);
+}
+.gamecarousel h2{
+    font-size: 90px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -40px;
+    margin-top: 100px;
+}
+.fegyoShow{
+    display: none;
+}
+
+h4{
+    font-size: 40px;
+}
+main p{
+    font-size: 19px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+main .container img{
+    width: 40%;
+}
+main .container{
+    margin-bottom: 50px;
+}
+.jobb{
+    text-align: right;
+}
+.end .container p{
+    margin: 50px 0px 90px;
+    width: 70vw;
+}
+main section:first-of-type p{
+    width: 60vw;
+    margin: 0 auto;
+}
+.fegyoHide p, .fegyoShow p{
+    width: 30vw;
+}
+.mobile ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    gap: 60px   ;
+    height: 100%;
+    width: 100%;
+}
+.mobile{
+    background-color: #000000b7;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.menuicon, .menucloseicon{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 50px;   
+    width: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #ee060673;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+}
+footer .kiemelt:hover{
+    color: #be0404;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.slide img:hover{
+    border: #be0404 2px solid;
+
+}
+nav .kiemelt:hover{
+    color: #be0404;
+    transition: 0.5s;
+}
+.dropdown-products{
+    display: none;
+    background-color: #0000003d;
+    position: absolute;
+    color: #fff;
+    flex-direction: column;
+    font-size: 30px;
+    padding: 15px;
+    margin-left: -20px;
+    z-index: 50px;
+}
+.dropdown-products a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu-products:hover .dropdown-products{
+    display: flex;
+}
+.downarrow{
+    vertical-align: bottom;
+}
+.nemmukszik{
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.nemmukszik2{
+    margin:0;
+    margin-bottom: -40px;
+    margin-top: -10px;
+    padding: 0;
 }

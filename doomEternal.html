@@ -10,15 +10,48 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#" class="link">Home</a></li>
-                <li><a href="#" class="link">Old Gen</a></li>
-                <li><a href="#" class="link"><img src="logos/doomlogo.png" alt="Doom logo" title="Doom: the logo"></a></li>
-                <li><a href="#" class="link">New Gen</a></li>
-                <li><a href="#" class="link">Webshop</a></li>
+    <header id="top">
+       <nav>
+            <ul class="desktop">
+                <li><a href="index.html" class="link kiemelt">Home</a></li>
+                <li class=" menu-products"><a href="#" class="link kiemelt">Old Gen<ion-icon name="chevron-down-outline"></ion-icon></a>
+                <ul class="dropdown-products">
+                  <li><a href="doom93.html" class="kiemelt">Doom</a></li>
+                  <li><a href="doom2.html" class="kiemelt">Doom 2: Hell on Earth</a></li>
+                  <li><a href="doom64.html" class="kiemelt">Doom 64</a></li>
+                  <li><a href="doom3.html" class="kiemelt">Doom 3</a></li>
+                </ul>
+                </li>
+                <li><a href="#top" class="link"><img src="logos/doomlogo.png" alt="Doom logo" title="Doom: the logo"></a></li>
+                <li class=" menu-products"><a href="#" class="link kiemelt">New Gen<ion-icon name="chevron-down-outline"></ion-icon></a>
+                <ul class="dropdown-products">
+                  <li><a href="doom16.html" class="kiemelt">Doom</a></li>
+                  <li><a href="doomEternal.html" class="kiemelt">Doom Eternal</a></li>
+                  <li><a href="doomDark.html" class="kiemelt">Doom: The Dark Ages</a></li>
+                </ul>
+                </li>
+                <li><a href="webshop.html" class="link kiemelt">Webshop</a></li>
             </ul>
+            <p class="menuicon kiemelt" onclick="openNav()"><ion-icon name="menu-outline" ></ion-icon></p>
+            <p class="menucloseicon kiemelt" onclick="closeNav()"><ion-icon name="close-outline" ></ion-icon></p>
+            <div class="mobile "onclick="closeNav()">
+            <ul>
+              <li><a href="#top" class="link"><img src="logos/doomlogo.png" alt="Doom logo" title="Doom: the logo"></a></li>
+                <li><a href="index.html" class="link kiemelt ">Home</a></li>
+                <li class="menu-products"><a href="#" class="link kiemelt">Old Gen</a>
+                  <li class="nemmukszik2"><a href="doom93.html" class="kiemelt nemmukszik">Doom</a></li>
+                  <li class="nemmukszik2"><a href="doom2.html" class="kiemelt nemmukszik">Doom 2: Hell on Earth</a></li>
+                  <li class="nemmukszik2"><a href="doom64.html" class="kiemelt nemmukszik">Doom 64</a></li>
+                  <li class="nemmukszik2"><a href="doom3.html" class="kiemelt nemmukszik">Doom 3</a></li>
+                </li>
+                <li class=" menu-products"><a href="#" class="link kiemelt">New Gen</a>
+                  <li class="nemmukszik2"><a href="doom16.html" class="kiemelt nemmukszik">Doom</a></li>
+                  <li class="nemmukszik2"><a href="doomEternal.html" class="kiemelt nemmukszik">Doom Eternal</a></li>
+                  <li class="nemmukszik2"><a href="doomDark.html" class="kiemelt nemmukszik">Doom: The Dark Ages</a></li>
+                </li>
+                <li><a href="#" class="link kiemelt">Webshop</a></li>
+            </ul>
+            </div>
         </nav>
         <div class="headercont">
             <h1>
@@ -31,41 +64,125 @@
         <section>
           <div>
             <h2 class="cim">DOOM lore</h2>
-            <p class="copyright">_____________________________________________________________</p>
+            <p class="copyright">Long ago, the Makyrs were created, or otherwise encountered and were elevated by, an entity known as the Father. It's not super clear who or what the Father was, but its essence stayed in Urdak for a long time, becoming the center of Makyr society. During this time, the Makyrs would undergo a process called the Transfiguration: though they were very long-lived, eventually, Makyrs would start to degrade, and the Transfiguration seems to be some sort of death and rebirth cycle. It sounds like the Makyrs are actually individual people who create a big collective consciousness when they die, so the Transfiguration seems like it's some kind of reincarnation through that process.</p>
           </div>
         </section>
-        <section>
+        <section class="fegyoHide">
           <h2 class="cim">Fegyverek</h2>
           <div class="container">
-            <img src="images/idsoftlogo.png" alt="">
+            <img src="weapons/eternal1.webp" alt="The Crucible" title="The Crucible">
             <div>
-              <h4>_____________________________________________________________</h4>
-              <p>_____________________________________________________________</p>
+              <h4>The Crucible</h4>
+              <p>The crucible was introduced in Doom 2016 but was never used within gameplay. Doom Eternal provides the Doom Slayer with his very own crucible weapon, and it's a mighty sword. It is a plot device in the first game, but Doom Eternal cranks it up a notch.</p>
             </div>
           </div>
           <div class="container">
-            <div>
-              <h4>_____________________________________________________________</h4>
-              <p>_____________________________________________________________</p>
+            <div class="jobb">
+              <h4>Sentinel Hammer</h4>
+              <p>As you advance to Chapter 1 “Village of Khalim,”  you’ll acquire the Power Gauntlet, the first melee weapon in Doom: The Dark Ages. Once you have it, you can start punching enemies, who will drop ammo  when hit for as long as you have melee stacks to spend.</p>
             </div>
-            <img src="images/idsoftlogo.png" alt="">
+            <img src="weapons/eternal2.jpg" alt="Sentinel Hammer" title="Sentinel Hammer">
+          </div>
+          <div class="container">
+            <img src="weapons/eternal3.avif" alt="BFG 9000" title="BFG 9000">
+            <div>
+              <h4>BFG 9000</h4>
+              <p>The BFG 9000 is the perfect name for a weapon that can decimate demons in a split second. The BFG 9000 is derived from the BFG 10,000, a large cannon on Phobos. The smaller version is not less powerful, however. This beast can annihilate large crowds of powerful foes in one fell swoop.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="jobb">
+              <h4>Super Shotgun</h4>
+              <p>While the combat shotgun is a solid weapon, the super shotgun is its more potent cousin. In fact, the weapon has been measured to dish out a whopping 1,600 damage on average, which even trounces, say, the Rocket Launcher's 900. This time, Doom Eternal has a simple, yet excellent modification to the weapon as well.</p>
+            </div>
+            <img src="weapons/eternal4.avif" alt="Super Shotgun" title="Super Shotgun">
+          </div>
+          <div class="container">
+            <img src="weapons/eternal5.avif" alt="Unmaykr" title="Unmaykr">
+            <div>
+              <h4>Unmaykr</h4>
+              <p>This fun Doom 64 throwback comes laced with some hefty damage and a relatively swift fire rate. Some fans have been deterred due to its steep price of admission and rare, limited ammo (sharing only with the BFG-9000). Still, it's tough to deny the sheer offensive output of this beast — and those who opt to knock out the six Slayer Gate challenges are in for a good time here.</p>
+            </div>
+          </div>
+        </section>
+        <section class="fegyoShow">
+          <h2 class="cim">Fegyverek</h2>
+          <div class="container">
+            <img src="weapons/eternal1.webp" alt="The Crucible" title="The Crucible">
+            <div>
+              <h4>The Crucible</h4>
+              <p>The crucible was introduced in Doom 2016 but was never used within gameplay. Doom Eternal provides the Doom Slayer with his very own crucible weapon, and it's a mighty sword. It is a plot device in the first game, but Doom Eternal cranks it up a notch.</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="weapons/eternal2.jpg" alt="Sentinel Hammer" title="Sentinel Hammer">
+            <div>
+              <h4>Sentinel Hammer</h4>
+              <p>As you advance to Chapter 1 “Village of Khalim,”  you’ll acquire the Power Gauntlet, the first melee weapon in Doom: The Dark Ages. Once you have it, you can start punching enemies, who will drop ammo  when hit for as long as you have melee stacks to spend.</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="weapons/eternal3.avif" alt="BFG 9000" title="BFG 9000">
+            <div>
+              <h4>BFG 9000</h4>
+              <p>The BFG 9000 is the perfect name for a weapon that can decimate demons in a split second. The BFG 9000 is derived from the BFG 10,000, a large cannon on Phobos. The smaller version is not less powerful, however. This beast can annihilate large crowds of powerful foes in one fell swoop.</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="weapons/eternal4.avif" alt="Super Shotgun" title="Super Shotgun">
+            <div>
+              <h4>Super Shotgun</h4>
+              <p>While the combat shotgun is a solid weapon, the super shotgun is its more potent cousin. In fact, the weapon has been measured to dish out a whopping 1,600 damage on average, which even trounces, say, the Rocket Launcher's 900. This time, Doom Eternal has a simple, yet excellent modification to the weapon as well.</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="weapons/eternal5.avif" alt="Unmaykr" title="Unmaykr">
+            <div>
+              <h4>Unmaykr</h4>
+              <p>This fun Doom 64 throwback comes laced with some hefty damage and a relatively swift fire rate. Some fans have been deterred due to its steep price of admission and rare, limited ammo (sharing only with the BFG-9000). Still, it's tough to deny the sheer offensive output of this beast — and those who opt to knock out the six Slayer Gate challenges are in for a good time here.</p>
+            </div>
           </div>
         </section>
         <section class="end">
           <h2 class="cim">Ellenfelek</h2>
           <div class="container">
             <div>
-              <div id="kep" class="nagykep"><h4>_____________________________________________________________</h4></div>
-              <p>_____________________________________________________________</p>
+              <div id="kep1" class="nagykep"><h4>hellknight</h4></div>
+              <p>The Hell Knight, warrior beast among demons, has earned its place over the millennia in service of the eternal Archdemons. As imposed by the sovereign houses, Hell Knights have long served as barbaric enforcers of the Netherworld, impelling lesser demons by way of brutality. Rare among demon-kind for its innate regard from primal orders of hierarchy, the Hell Knight exhibits adherence to the prevailing rule of its demonlord masters. Requiring little compulsion on behalf of its highborne masters, Hell Knights readily serve the Elder Hell-gods for the extent of their lifespans, reaping great satisfaction in the way of war and desecration.</p>
             </div>
           </div>
           <div class="container">
             <div>
-              <div class="nagykep"><h4>_____________________________________________________________</h4></div>
-              <p>_____________________________________________________________</p>
+              <div id="kep2" class="nagykep"><h4>Mancubus</h4></div>
+              <p>The Mancubus, hulking behemoth of the demon world, bears notable differences from those of its kind first encountered by the UAC expedition team on Mars. Unlike its brethren which wore a naturally occurring armored carapace, this variation shows clear signs of pre-existing man-made modifications. Armor-plating augmentation to its exterior and a sophisticated arm-mounted weapon system indicate a clear intent to upgrade and weaponize the fighting capacity of the Mancubus, whose heavy stature and resilience make it a formidable threat in battle.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div>
+              <div id="kep3" class="nagykep"><h4>Cacodemon</h4></div>
+              <p>Hunters of the Sloughlands, the Cacodemon lurks the bottomless and murky depths of Hell in search of easy prey. An aimless wanderer, the Cacodemon is mostly devoid of cognitive ability, sensory awareness, and otherwise commonly occurring impulses. Driven only by a singular desire to feed, the Cacodemon is likely to appear wherever there is flesh to be consumed, bringing with it an insatiable propensity for hunger.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div>
+              <div id="kep4" class="nagykep"><h4>imp</h4></div>
+              <p>Scavengers of the underworld, Imps are among the most common of beasts found on the scorched surface of the Hellscape. Lesser demons of Hell, the Imp possesses limited intelligence, driven only by a hunter's impulse to seek out prey - a task for which the Imp is naturally suited due to its innate capacity for violence. As a result of these attributes, the Imp makes for an ideal footsoldier and is often deployed in the warring legions of Hell, easily manipulated and controlled by commanding highborne demons at the behest of the sovereign chapters.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div>
+              <div id="kep6" class="nagykep"><h4>Cyberdemon </h4></div>
+              <p>Demon Lords to the black soul pits of Babel, the Tyrants have long served as wardens and slavers of the infernal pits. Weaponized and cybernetically altered by the UAC, the Tyrants are tasked with overseeing the collection and extraction of sin-branded souls from the mortal world, their role in Hell ordained by the unholy sigil of the Elder Hell-gods. A sadistic master of lesser demons, the Tyrants are feared for their cruelty and malice.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div>
+              <div id="kep7" class="nagykep"><h4>titan</h4></div>
+              <p>The Titans were originally peaceful giants who once inhabited a verdant world until they were overwhelmed and enslaved by the legions of Hell. Corrupted by Hell's malice and their mind enslaved by Hell's war priests, the Titans were transformed into powerful demons who lay waste to untold worlds.</p>
             </div>
           </div>
         </section>
+
 
 </main>
 <footer>

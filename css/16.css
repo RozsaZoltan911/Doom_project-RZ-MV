@@ -18,6 +18,21 @@ header{
 section{
     color: #fff;
 }
-#kep{
-    background-image: url(..//images/doom2_bg.jpg);
+#kep1{
+    background-image: url(..//images/161.avif);
+}
+#kep2{
+    background-image: url(..//images/162.jpg);
+}
+#kep3{
+    background-image: url(..//images/163.webp);
+}
+#kep4{
+    background-image: url(..//images/164.png);
+}
+#kep6{
+    background-image: url(..//images/166.jpg);
+}
+#kep7{
+    background-image: url(..//images/167.webp);
 }

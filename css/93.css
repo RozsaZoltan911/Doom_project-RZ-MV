@@ -26,6 +26,9 @@ section:last-of-type p{
 main section:last-of-type{
     padding-bottom: 50px;
 }
-#kep{
-   background-image: url(..//images/Doom-title2_1.png);
+#site{
+   background-image: url(..//images/doom2.webp);
+}
+.nagykep{
+    margin: 0 auto;
 }

@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.308)), url(../images/2025-05-15T07_34_47.909Z-LEAD\ DOOMTDA_Announce_02\ \(1\)\ copy.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.308)), url(../images/doomDark_main.jpg);
 }
 .headercont h1, .headercont p{
     text-shadow:    
@@ -18,6 +18,24 @@ header{
 section{
     color: #fff;
 }
-#kep{
-    background-image: url(..//images/doom2_bg.jpg);
+#kep1{
+    background-image: url(..//images/dark1.avif);
+}
+#kep2{
+    background-image: url(..//images/dark2.jpg);
+}
+#kep3{
+    background-image: url(..//images/dark3.png);
+}
+#kep4{
+    background-image: url(..//images/dark4.webp);
+}
+#kep5{
+    background-image: url(..//images/dark5.jpg);
+}
+#kep6{
+    background-image: url(..//images/dark6.jpg);
+}
+#kep7{
+    background-image: url(..//images/dark7.webp);
 }

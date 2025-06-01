@@ -18,6 +18,9 @@ header{
 section{
     color: #fff;
 }
-#kep{
-    background-image: url(..//images/doom2_bg.jpg);
+#site{
+    background-image: url(..//images/doom2.webp);
+}
+.nagykep{
+    margin: 0 auto;
 }

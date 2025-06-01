@@ -18,6 +18,21 @@ header{
 section{
     color: #fff;
 }
-#kep{
-    background-image: url(..//images/doom2_bg.jpg);
+#kep1{
+    background-image: url(..//images/eternal1.avif);
+}
+#kep2{
+    background-image: url(..//images/eternal2.jpg);
+}
+#kep3{
+    background-image: url(..//images/eternal3.webp)
+}
+#kep4{
+    background-image: url(..//images/eternal4.webp);
+}
+#kep6{
+    background-image: url(..//images/eternal6.webp);
+}
+#kep7{
+    background-image: url(..//images/eternal7.webp);
 }

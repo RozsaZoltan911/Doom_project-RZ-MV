@@ -10,15 +10,48 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#" class="link">Home</a></li>
-                <li><a href="#" class="link">Old Gen</a></li>
-                <li><a href="#" class="link"><img src="logos/doomlogo.png" alt="Doom logo" title="Doom: the logo"></a></li>
-                <li><a href="#" class="link">New Gen</a></li>
-                <li><a href="#" class="link">Webshop</a></li>
+    <header id="top">
+              <nav>
+            <ul class="desktop">
+                <li><a href="index.html" class="link kiemelt">Home</a></li>
+                <li class=" menu-products"><a href="#" class="link kiemelt">Old Gen<ion-icon name="chevron-down-outline"></ion-icon></a>
+                <ul class="dropdown-products">
+                  <li><a href="doom93.html" class="kiemelt">Doom</a></li>
+                  <li><a href="doom2.html" class="kiemelt">Doom 2: Hell on Earth</a></li>
+                  <li><a href="doom64.html" class="kiemelt">Doom 64</a></li>
+                  <li><a href="doom3.html" class="kiemelt">Doom 3</a></li>
+                </ul>
+                </li>
+                <li><a href="#top" class="link"><img src="logos/doomlogo.png" alt="Doom logo" title="Doom: the logo"></a></li>
+                <li class=" menu-products"><a href="#" class="link kiemelt">New Gen<ion-icon name="chevron-down-outline"></ion-icon></a>
+                <ul class="dropdown-products">
+                  <li><a href="doom16.html" class="kiemelt">Doom</a></li>
+                  <li><a href="doomEternal.html" class="kiemelt">Doom Eternal</a></li>
+                  <li><a href="doomDark.html" class="kiemelt">Doom: The Dark Ages</a></li>
+                </ul>
+                </li>
+                <li><a href="webshop.html" class="link kiemelt">Webshop</a></li>
             </ul>
+            <p class="menuicon kiemelt" onclick="openNav()"><ion-icon name="menu-outline" ></ion-icon></p>
+            <p class="menucloseicon kiemelt" onclick="closeNav()"><ion-icon name="close-outline" ></ion-icon></p>
+            <div class="mobile "onclick="closeNav()">
+            <ul>
+              <li><a href="#top" class="link"><img src="logos/doomlogo.png" alt="Doom logo" title="Doom: the logo"></a></li>
+                <li><a href="index.html" class="link kiemelt ">Home</a></li>
+                <li class="menu-products"><a href="#" class="link kiemelt">Old Gen</a>
+                  <li class="nemmukszik2"><a href="doom93.html" class="kiemelt nemmukszik">Doom</a></li>
+                  <li class="nemmukszik2"><a href="doom2.html" class="kiemelt nemmukszik">Doom 2: Hell on Earth</a></li>
+                  <li class="nemmukszik2"><a href="doom64.html" class="kiemelt nemmukszik">Doom 64</a></li>
+                  <li class="nemmukszik2"><a href="doom3.html" class="kiemelt nemmukszik">Doom 3</a></li>
+                </li>
+                <li class=" menu-products"><a href="#" class="link kiemelt">New Gen</a>
+                  <li class="nemmukszik2"><a href="doom16.html" class="kiemelt nemmukszik">Doom</a></li>
+                  <li class="nemmukszik2"><a href="doomEternal.html" class="kiemelt nemmukszik">Doom Eternal</a></li>
+                  <li class="nemmukszik2"><a href="doomDark.html" class="kiemelt nemmukszik">Doom: The Dark Ages</a></li>
+                </li>
+                <li><a href="#" class="link kiemelt">Webshop</a></li>
+            </ul>
+            </div>
         </nav>
         <div class="headercont">
             <h1>
@@ -31,38 +64,101 @@
         <section>
           <div>
             <h2 class="cim">DOOM 64 lore</h2>
-            <p class="copyright">_____________________________________________________________</p>
+            <p class="copyright">In the game, you reprise the role of the lone space marine who encounters demons from another dimension. The invaders have taken over an installation on one of the moons of Mars, so help is not likely. It is your job to stop the invasion before it spreads further, but all you have to help you in your mission is your own agility and the scattered weapons and items that you can pick up along the way.[2]</p>
           </div>
         </section>
-        <section>
+                <section class="fegyoHide">
           <h2 class="cim">Fegyverek</h2>
           <div class="container">
-            <img src="images/idsoftlogo.png" alt="">
+            <img src="weapons/641.webp" alt="Chaingun" title="Chaingun">
             <div>
-              <h4>_____________________________________________________________</h4>
-              <p>_____________________________________________________________</p>
+              <h4>Chaingun</h4>
+              <p>Compared to the Heavy Assault Rifle, the Chaingun has a much larger reticle and wider spread, making it inaccurate at long ranges. However it shoots at a much faster rate, of 900 RPM or 15 shots/sec, ammunition pool can be consumed quickly when firing without discipline, even more so with the use of the Mobile Turret modification.</p>
             </div>
           </div>
           <div class="container">
-            <div>
-              <h4>_____________________________________________________________</h4>
-              <p>_____________________________________________________________</p>
+            <div class="jobb">
+              <h4>cainshaw</h4>
+              <p>There have been reports of this item being seen at the Argent facility, though there is no known uses for it. Security personnel have been made aware that this item is has likely been smuggled onto Mars and have been directed to confiscate it immediately. As there are no practical uses for it, it must be assumed that this item should be considered a black-market enthusiasts's weapon.</p>
             </div>
-            <img src="images/idsoftlogo.png" alt="">
+            <img src="weapons/642.webp" alt="  cainshaw" title="cainshaw">
+          </div>
+          <div class="container">
+            <img src="weapons/643.webp" alt="BFG 9000" title="BFG 9000">
+            <div>
+              <h4>BFG 9000</h4>
+              <p>The BFG 9000 is the perfect name for a weapon that can decimate demons in a split second. The BFG 9000 is derived from the BFG 10,000, a large cannon on Phobos. The smaller version is not less powerful, however. This beast can annihilate large crowds of powerful foes in one fell swoop.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="jobb">
+              <h4>Shotgun</h4>
+              <p>While the combat shotgun is a solid weapon, the shotgun is its more potent cousin. In fact, the weapon has been measured to dish out a whopping 1,600 damage on average, which even trounces, say, the Rocket Launcher's 900. This time, Doom has a simple, yet excellent modification to the weapon as well.</p>
+            </div>
+            <img src="weapons/644.jpg" alt="Shotgun" title="Shotgun">
           </div>
         </section>
-        <section class="end">
+         <section class="fegyoShow">
+          <h2 class="cim">Fegyverek</h2>
+          <div class="container">
+            <img src="weapons/641.webp" alt="Chaingun" title="Chaingun">
+            <div>
+              <h4>Chaingun</h4>
+              <p>Compared to the Heavy Assault Rifle, the Chaingun has a much larger reticle and wider spread, making it inaccurate at long ranges. However it shoots at a much faster rate, of 900 RPM or 15 shots/sec, ammunition pool can be consumed quickly when firing without discipline, even more so with the use of the Mobile Turret modification.</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="weapons/642.webp" alt="  cainshaw" title="cainshaw">
+            <div>
+              <h4>cainshaw</h4>
+              <p>There have been reports of this item being seen at the Argent facility, though there is no known uses for it. Security personnel have been made aware that this item is has likely been smuggled onto Mars and have been directed to confiscate it immediately. As there are no practical uses for it, it must be assumed that this item should be considered a black-market enthusiasts's weapon.</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="weapons/643.webp" alt="BFG 9000" title="BFG 9000">
+            <div>
+              <h4>BFG 9000</h4>
+              <p>The BFG 9000 is the perfect name for a weapon that can decimate demons in a split second. The BFG 9000 is derived from the BFG 10,000, a large cannon on Phobos. The smaller version is not less powerful, however. This beast can annihilate large crowds of powerful foes in one fell swoop.</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="weapons/644.jpg" alt="Shotgun" title="Shotgun">
+            <div>
+              <h4>Shotgun</h4>
+              <p>While the combat shotgun is a solid weapon, the shotgun is its more potent cousin. In fact, the weapon has been measured to dish out a whopping 1,600 damage on average, which even trounces, say, the Rocket Launcher's 900. This time, Doom has a simple, yet excellent modification to the weapon as well.</p>
+            </div>
+          </div>
+        </section>
+       <section class="end">
           <h2 class="cim">Ellenfelek</h2>
           <div class="container">
             <div>
-              <div id="kep" class="nagykep"><h4>_____________________________________________________________</h4></div>
-              <p>_____________________________________________________________</p>
+              <div id="kep1" class="nagykep"><h4>hellknight</h4></div>
+              <p>The Hell Knight is a towering brute built for combat deep in the bowels of Hell. These diabolical beasts are the prized gladiators of the demon-horde. They relentlessly stomp towards their target, smashing their massive fists into the ground to create shockwaves that stagger their opponent and leave them vulnerable to bone-crushing melee attacks. The Hell Knight's powerful legs allow it to leap across large distances effortlessly, quickly closing the gap to its enemy.</p>
             </div>
           </div>
           <div class="container">
             <div>
-              <div class="nagykep"><h4>_____________________________________________________________</h4></div>
-              <p>_____________________________________________________________</p>
+              <div id="kep2" class="nagykep"><h4>Mancubus</h4></div>
+              <p>The Mancubus is a large, somewhat slow-moving monster that can take a large amount of damage and deal just as much. It fires fireballs out of the two cannons mounted on its arms to hit targets at mid to long range and has a flamethrower ability for up close targets as well as a power wave attack which will push the player back whilst dealing great damage to any player that wanders even closer to the Mancubus.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div>
+              <div id="kep3" class="nagykep"><h4>Cacodemon</h4></div>
+              <p>Hunters of the Sloughlands, the Cacodemon lurks the bottomless and murky depths of Hell in search of easy prey. An aimless wanderer, the Cacodemon is mostly devoid of cognitive ability, sensory awareness, and otherwise commonly occurring impulses. Driven only by a singular desire to feed, the Cacodemon is likely to appear wherever there is flesh to be consumed, bringing with it an insatiable propensity for hunger.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div>
+              <div id="kep4" class="nagykep"><h4>imp</h4></div>
+              <p>Imps are agile enemies that will use the environment to their advantage by climbing up and down ledges and jumping over gaps. They will often try to stay at a medium distance from the player and throw fireballs at them, but if approached they will swipe at the player with their claws then usually try to build a distance from the player again. The hell-fire balls can also be charged to deal more damage but will leave the Imps immobile for a short time.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div>
+              <div id="kep6" class="nagykep"><h4>Cyberdemon </h4></div>
+              <p>The Cyberdemon is an incredibly large demon, at least double the size of a Baron of Hell. It has pale, pinkish skin that is covered in a natural armor that covers the majority of its body. It has four small, beady eyes and a large, gaping mouth similar in appearance to a Mancubus or a Prowler. The Cyberdemon has two large, sharp horns, the left horn of which has been broken in half. The Cyberdemon's right arm has a large blade-like bone that is located on the wrist which allows the Cyberdemon to utilize its flame wall attack. The Cyberdemon's left fore-arm has been replaced with an orange UAC-engineered rocket launcher.</p>
             </div>
           </div>
         </section>
@@ -73,20 +169,20 @@
 
     <div >
       <ul>
-        <li>
-          <a href="">Home</a>
+         <li>
+          <a href="index.html" class="kiemelt">Home</a>
         </li>
         <li>
-          <a href="">Webshop</a>
+          <a href="webshop.html" class="kiemelt">Webshop</a>
         </li>
         <li>
-          <a href="">About us</a>
+          <a href="https://bethesda.net/en/dashboard" target="_blank" class="kiemelt">About us</a>
         </li>
         <li>
-          <a href="">Blog</a>
+          <a href="https://bethesda.net/hub/community" target="_blank" class="kiemelt">Blog</a>
         </li>
         <li>
-          <a href="">Contact us!</a>
+          <a href="https://www.zenimax.com/more" class="kiemelt" target="_blank">Contact us!</a>
         </li>
       </ul>
     </div>
@@ -106,5 +202,7 @@
     © 2025. Master Legion. All Rights Reserved.
   </p>
 </footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
